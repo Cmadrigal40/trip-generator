@@ -1,0 +1,18 @@
+import random     # step 1 program chooses for user
+
+destinations = ['Indianapolis', 'South Bend', 'Fort Wayne', 'Fishers']
+select_des = random.choice(tuple(destinations))
+print(select_des)
+
+restaurants = ['Mexican', 'American', 'Indian', 'Latin']
+select_rest = random.choice(tuple(restaurants))
+print(select_rest)
+
+transportation = ['Car', 'Bus', 'Uber', 'Bike']
+select_trans = random.choice(tuple(transportation))
+print(select_trans)
+
+entertainment = ['Dive bars', 'Concerts','Mini golf','Skydiving']
+select_enter = random.choice(tuple(entertainment))
+print(select_enter)
+
